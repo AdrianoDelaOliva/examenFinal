@@ -1,0 +1,41 @@
+header {
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(44, 44, 44);
+}
+.imagen {
+    width: 80px;
+    height: 50px;
+
+    margin: 8px 5px;
+
+    border-radius: 8px;
+}
+nav {
+    display: flex;
+    gap: 15px;
+    margin-right: 4px;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    
+    color:white;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    padding: 4px;
+
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.nav-link:hover,
+.active {
+    color:rgb(44, 44, 44);
+
+    background-color: white;
+}
